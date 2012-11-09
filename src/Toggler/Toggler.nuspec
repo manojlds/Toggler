@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Toggler</title>
+    <authors>manojlds</authors>
+    <owners>manojlds</owners>
+    <licenseUrl>https://github.com/manojlds/Toggler</licenseUrl>
+    <projectUrl>https://github.com/manojlds/Toggler</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Feature Toggling Library for .NET</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>feature-toggles feature-flags</tags>
+  </metadata>
+</package>

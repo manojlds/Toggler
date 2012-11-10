@@ -2,6 +2,14 @@
 
 Feature toggling library for .NET.
 
+**How to get it?**
+
+Toggler is available through the Nuget Package Manager.
+
+Or, you can build it from source.
+
+**How to use it?**
+
 To enable toggling at the class level, implement the `IToggled` interface:
 
     public class TestFeature : IToggled

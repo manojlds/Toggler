@@ -5,33 +5,42 @@ namespace Toggler.UnitTests
     [TestFixture]
     public class ToggledFeatureTests
     {
-        private TestFeature testFeature;
+        private IToggled testFeature;
 
         private class TestFeature : IToggled
         {
-            public bool IsFeatureEnabled()
-            {
-                return this.IsOn();
-            }
+            
         }
 
-        private class TestFeatureDisabled : TestFeature
+        private class TestFeatureDisabled : IToggled
         {
             
+        }
+
+        private class TestFeatureNotInAppSettings : IToggled
+        {
+
         }
 
         [Test]
         public void ToggledFeatureShouldBeEnabledIfConfiguredSoInAppSettings()
         {
             testFeature = new TestFeature();
-            Assert.That(testFeature.IsFeatureEnabled(), Is.True);
+            Assert.That(testFeature.IsOn(), Is.True);
         }
 
         [Test]
         public void ToggledFeatureShouldBeDisabledIfConfiguredSoInAppSettings()
         {
             testFeature = new TestFeatureDisabled();
-            Assert.That(testFeature.IsFeatureEnabled(), Is.False);
+            Assert.That(testFeature.IsOn(), Is.False);
+        }
+
+        [Test]
+        public void ToggledFeatureIsDisableIfNotMentionedInAppSettings()
+        {
+            testFeature = new TestFeatureNotInAppSettings();
+            Assert.That(testFeature.IsOn(), Is.False);
         }
     }
 }

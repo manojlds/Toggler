@@ -12,6 +12,6 @@
     <description>Feature Toggling Library for .NET</description>
     <releaseNotes>Initial release</releaseNotes>
     <copyright>Copyright 2012</copyright>
-    <tags>feature-toggles feature-flags</tags>
+    <tags>feature toggle flag switch feature-toggles feature-flags</tags>
   </metadata>
 </package>

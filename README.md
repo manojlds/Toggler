@@ -29,4 +29,4 @@ You can enable or disable the features in the AppSettings:
         <add key="Toggler.TestFeatureDisabled" value="false"/>
     </appSettings>
 
-`TestFeature` and `TestFeatureDisabled` refers to classes are feature toggled.
+`TestFeature` and `TestFeatureDisabled` refers to classes that are feature toggled.

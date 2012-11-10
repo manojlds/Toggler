@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Feature\AppSettingsFeatureTests.cs" />
     <Compile Include="ToggledFeatureTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToggledWithFeatureTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

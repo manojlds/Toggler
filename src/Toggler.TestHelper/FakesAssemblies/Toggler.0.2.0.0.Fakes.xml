@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Toggler.0.2.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Toggler.Fakes.ShimToggledExtensions">
+            <summary>Shim type of Toggler.ToggledExtensions</summary>
+        </member>
+        <member name="M:Toggler.Fakes.ShimToggledExtensions.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Toggler.Fakes.ShimToggledExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Toggler.Fakes.ShimToggledExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Toggler.Fakes.ShimToggledExtensions.IsFeatureOnOf1IToggledOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Toggler.IToggled{``0},System.Boolean})">
+            <summary>Sets the shim of ToggledExtensions.IsFeatureOn(IToggled`1&lt;!!0&gt; toggledFeature)</summary>
+        </member>
+        <member name="P:Toggler.Fakes.ShimToggledExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Toggler.Fakes.ShimToggledExtensions.IsOnIToggled">
+            <summary>Sets the shim of ToggledExtensions.IsOn(IToggled toggledFeature)</summary>
+        </member>
+        <member name="T:Toggler.Fakes.StubIToggled">
+            <summary>Stub type of Toggler.IToggled</summary>
+        </member>
+        <member name="M:Toggler.Fakes.StubIToggled.#ctor">
+            <summary>Initializes a new instance of type StubIToggled</summary>
+        </member>
+        <member name="T:Toggler.Fakes.StubIToggled`1">
+            <summary>Stub type of Toggler.IToggled`1</summary>
+        </member>
+        <member name="M:Toggler.Fakes.StubIToggled`1.#ctor">
+            <summary>Initializes a new instance of type StubIToggled</summary>
+        </member>
+        <member name="T:Toggler.Feature.Fakes.ShimAppSettingsFeature">
+            <summary>Shim type of Toggler.Feature.AppSettingsFeature</summary>
+        </member>
+        <member name="M:Toggler.Feature.Fakes.ShimAppSettingsFeature.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Toggler.Feature.Fakes.ShimAppSettingsFeature.#ctor(Toggler.Feature.AppSettingsFeature)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Toggler.Feature.Fakes.ShimAppSettingsFeature.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Toggler.Feature.Fakes.ShimAppSettingsFeature.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Toggler.Feature.Fakes.ShimAppSettingsFeature.Bind(Toggler.Feature.IFeature)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Toggler.Feature.Fakes.ShimAppSettingsFeature.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Toggler.Feature.Fakes.ShimAppSettingsFeature.Constructor">
+            <summary>Sets the shim of AppSettingsFeature.AppSettingsFeature()</summary>
+        </member>
+        <member name="P:Toggler.Feature.Fakes.ShimAppSettingsFeature.IsOn">
+            <summary>Sets the shim of AppSettingsFeature.IsOn()</summary>
+        </member>
+        <member name="T:Toggler.Feature.Fakes.ShimAppSettingsFeature.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Toggler.Feature.Fakes.ShimAppSettingsFeature.AllInstances.IsOn">
+            <summary>Sets the shim of AppSettingsFeature.IsOn()</summary>
+        </member>
+        <member name="T:Toggler.Feature.Fakes.StubAppSettingsFeature">
+            <summary>Stub type of Toggler.Feature.AppSettingsFeature</summary>
+        </member>
+        <member name="M:Toggler.Feature.Fakes.StubAppSettingsFeature.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Toggler.Feature.Fakes.StubAppSettingsFeature.InitializeStub">
+            <summary>Initializes a new instance of type StubAppSettingsFeature</summary>
+        </member>
+        <member name="P:Toggler.Feature.Fakes.StubAppSettingsFeature.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Toggler.Feature.Fakes.StubAppSettingsFeature.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Toggler.Feature.Fakes.StubAppSettingsFeature.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Toggler.Feature.Fakes.StubIFeature">
+            <summary>Stub type of Toggler.Feature.IFeature</summary>
+        </member>
+        <member name="M:Toggler.Feature.Fakes.StubIFeature.#ctor">
+            <summary>Initializes a new instance of type StubIFeature</summary>
+        </member>
+        <member name="F:Toggler.Feature.Fakes.StubIFeature.IsOn">
+            <summary>Sets the stub of IFeature.IsOn()</summary>
+        </member>
+        <member name="M:Toggler.Feature.Fakes.StubIFeature.t::Toggler#Feature#IFeature#IsOn">
+            <summary>Sets the stub of IFeature.IsOn()</summary>
+        </member>
+    </members>
+</doc>

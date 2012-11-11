@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Toggler</id>
+    <version>0.2.0.0</version>
+    <title>Toggler</title>
+    <authors>manojlds</authors>
+    <owners>manojlds</owners>
+    <licenseUrl>https://github.com/manojlds/Toggler</licenseUrl>
+    <projectUrl>https://github.com/manojlds/Toggler</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Feature Toggling Library for .NET</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>feature toggle flag switch feature-toggles feature-flags</tags>
+  </metadata>
+</package>

@@ -1,16 +1,9 @@
 ﻿using Microsoft.QualityTools.Testing.Fakes;
 using NUnit.Framework;
+using Toggler.TestHelper.UnitTests.TestSetup;
 
 namespace Toggler.TestHelper.UnitTests
 {
-    public class ToggledFeature : IToggled
-    {
-        public int SomeProcessing()
-        {
-            return this.IsOn() ? 1 : 2;
-        }
-    }
-
     [TestFixture]
     public class ToggledFeatureTests
     {

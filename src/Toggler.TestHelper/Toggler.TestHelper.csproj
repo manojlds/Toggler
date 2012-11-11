@@ -38,11 +38,12 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Toggler">
-      <HintPath>..\packages\Toggler.0.2.0.0\lib\net40\Toggler.dll</HintPath>
+    <Reference Include="Toggler, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Toggler.0.3.0.0\lib\net40\Toggler.dll</HintPath>
     </Reference>
-    <Reference Include="Toggler.0.2.0.0.Fakes">
-      <HintPath>FakesAssemblies\Toggler.0.2.0.0.Fakes.dll</HintPath>
+    <Reference Include="Toggler.0.3.0.0.Fakes">
+      <HintPath>FakesAssemblies\Toggler.0.3.0.0.Fakes.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

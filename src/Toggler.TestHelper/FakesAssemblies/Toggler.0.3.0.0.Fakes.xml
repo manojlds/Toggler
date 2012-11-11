@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Toggler.0.2.0.0.Fakes</name>
+        <name>Toggler.0.3.0.0.Fakes</name>
     </assembly>
     <members>
         <member name="T:Toggler.Fakes.ShimToggledExtensions">

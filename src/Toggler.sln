@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toggler", "Toggler\Toggler.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toggler.UnitTests", "Toggler.UnitTests\Toggler.UnitTests.csproj", "{30F5F0B1-1566-4939-9D39-DD47D1C697FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toggler.TestHelper.UnitTests", "Toggler.TestHelper.UnitTests\Toggler.TestHelper.UnitTests.csproj", "{21DEAECC-D319-4042-8DD4-77050909AB17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{30F5F0B1-1566-4939-9D39-DD47D1C697FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F5F0B1-1566-4939-9D39-DD47D1C697FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F5F0B1-1566-4939-9D39-DD47D1C697FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DEAECC-D319-4042-8DD4-77050909AB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DEAECC-D319-4042-8DD4-77050909AB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DEAECC-D319-4042-8DD4-77050909AB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DEAECC-D319-4042-8DD4-77050909AB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

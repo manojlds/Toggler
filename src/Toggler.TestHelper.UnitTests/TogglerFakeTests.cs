@@ -65,6 +65,7 @@ namespace Toggler.TestHelper.UnitTests
                 using (toggledWithMultipleFeatures.SetUpToggledWithFeature<TestSetup.Feature>(true))
                 {
                     Assert.That(toggledWithMultipleFeatures.IsFeatureOn<TestSetup.Feature>(), Is.True);
+                    Assert.That(toggledWithMultipleFeatures.IsFeatureOn<Feature2>(), Is.True);
                 }
             }
         }

@@ -14,4 +14,8 @@
     <copyright>Copyright 2012</copyright>
     <tags>toggler feature toggle flag toggling unittest testhelper</tags>
   </metadata>
+  <files>
+    <file src="bin\Release\Microsoft.QualityTools.Testing.Fakes.dll" target="lib\net40" /> 
+    <file src="bin\Release\Toggler.*.Fakes.*" target="lib\net40" /> 
+</files>
 </package>

@@ -58,3 +58,25 @@ You can now do `this.IsFeatureOn<TestToggleFeature>` to see if the feature `Test
 You can implement both `IToggled` and `IToggled<TestToggleFeature>`
 
 Refer to the tests for impementation.
+
+**How to test it?**
+
+You can use the Toggler.TestHelper Nuget package to test toggles in your code. A typical test for toggling with feature would like below:
+
+    public class ToggledWithFeature : IToggled<Feature>
+    {
+    }
+
+    [Test]
+    public void ShouldBeAbleToSetupToggleWithFeatureToOn()
+    {
+        var toggledWithFeature = new ToggledWithFeature();
+        using (toggledWithFeature.SetUpToggledWithFeature(true))
+        {
+            Assert.That(toggledWithFeature.IsFeatureOn(), Is.True);
+        }
+    }
+
+You setup the test context with `toggledWithFeature.SetUpToggledWithFeature(true)` and make necessary action and insert within it.
+
+The test helper makes use of Microsoft Fakes. If you are already using Fakes, you may wish to test directly with it. You can also, of course, choose to test toggles in your own way.

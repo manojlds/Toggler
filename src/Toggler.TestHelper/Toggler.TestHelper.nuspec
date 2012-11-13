@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Toggler.TestHelper</title>
+    <authors>manojlds</authors>
+    <owners>manojlds</owners>
+    <licenseUrl>https://github.com/manojlds/toggler</licenseUrl>
+    <projectUrl>https://github.com/manojlds/toggler</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Unit Test helper for Toggler library</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>toggler feature toggle flag toggling unittest testhelper</tags>
+  </metadata>
+</package>

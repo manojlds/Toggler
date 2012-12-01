@@ -15,6 +15,15 @@ namespace Toggler
         {
             return new T().IsOn();
         }
-    }
 
+        public static IFeature On<T>(this IToggled<T> toggledFeature) where T : IFeature, new()
+        {
+            return new T().On();
+        }
+
+        public static IFeature Off<T>(this IToggled<T> toggledFeature) where T : IFeature, new()
+        {
+            return new T().Off();
+        }
+    }
 }

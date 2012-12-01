@@ -59,6 +59,32 @@ You can implement both `IToggled` and `IToggled<TestToggleFeature>`
 
 Refer to the tests for impementation.
 
+**How to use fluent interface?**
+
+You can pass a bool parameter to your AppSettingsFeature to specify if you want to avoid using the configuration file. false means you wish to use the fluent interface.
+
+    private class TestFluentToggleFeature : AppSettingsFeature
+    {
+        public TestFluentToggleFeature()
+            : base(false) {}
+    }
+
+    private class TestFluentToggledWithFeature : IToggled<TestFluentToggleFeature>
+    {
+    } 
+
+Once your classes are implemented you can turn a feature on and off.
+
+    [Test]
+    public void ToggledWithFluentFeatureShouldBeFluent()
+    {
+        var testToggledWithFeature = new TestFluentToggledWithFeature();
+        testToggledWithFeature.On().Off();
+        Assert.That(testToggledWithFeature.IsFeatureOn(), Is.False);
+        testToggledWithFeature.Off().On();
+        Assert.That(testToggledWithFeature.IsFeatureOn(), Is.True);
+    }
+    
 **How to test it?**
 
 You can use the Toggler.TestHelper Nuget package to test toggles in your code. A typical test for toggling with feature would like below:

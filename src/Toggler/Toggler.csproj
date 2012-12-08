@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Feature\AppSettingsFeature.cs" />
     <Compile Include="Feature\IFeature.cs" />
+    <Compile Include="SettingsManager.cs" />
+    <Compile Include="ISettingManager.cs" />
     <Compile Include="IToggled.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToggledExtensions.cs" />
